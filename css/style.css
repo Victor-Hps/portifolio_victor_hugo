@@ -289,4 +289,13 @@ img {
     .home__description {
         line-height: 1.5rem;
     }
+
+    .nav__link:hover{
+        text-decoration: underline;
+    }
+
+    
+    .home__article img {
+        min-width: 11rem;
+    }
 }
