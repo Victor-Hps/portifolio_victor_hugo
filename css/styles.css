@@ -4,7 +4,7 @@
 
 :root {
     /* <========== Colors ==========>*/
-    --body-color: hsl(0, 0%, 96%);
+    --body-color: hsl(0, 0%, 97%);
     --cor-1: #F3000E;
     --cor-2: hsl(0, 0%, 45%);
 
@@ -36,6 +36,10 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+strong{
+    color: rgb(63, 63, 63);
 }
 
 .container {
@@ -127,10 +131,36 @@ img {
 
 .home__social{
     position: absolute;
-    top: 5rem;
-    right: 0;
+    top: 4rem;
+    right: 0rem;
     display: grid;
-    row-gap: .5rem;
+    gap: .5rem;
+}
+
+.home__list {
+    display: grid;
+    padding-block: 2rem;
+}
+
+.home__itens{
+    list-style: inside;
+    font-size: 0.9rem;
+}
+
+.home__experiencia{
+    margin-top: 1.2rem;
+    background-color: white;
+    padding: 0.4rem 2rem;
+    box-shadow: 0px 3px 16px rgb(212, 212, 212);
+    border-radius: 1rem;
+}
+
+.home__list__description{
+    font-size: 1rem;
+    font-family: var(--title);
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .home__social-link {
@@ -144,10 +174,19 @@ img {
     transform: translateY(-.25rem);
 }
 
+.home__title {
+    font-size: 1rem;
+    font-family: var(--title);
+
+}
+
+
+
 @media screen and (max-width: 320px) {
     .container {
         margin-inline: 1rem ;
     }
+
 
    
 }
